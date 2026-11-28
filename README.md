@@ -34,16 +34,16 @@ An automated, interactive Bash script to cleanly install, update, and configure 
 ## 🛠️ Usage
 
 1. **Clone or transfer the script to your Linux machine**:
-   Ensure `setup_go.sh` is present in your desired directory.
+   Ensure `set_go.sh` is present in your desired directory.
 
 2. **Make the script executable**:
    ```bash
-   chmod +x setup_go.sh
+   chmod +x set_go.sh
    ```
 
 3. **Run with `sudo` or as `root`**:
    ```bash
-   sudo ./setup_go.sh
+   sudo ./set_go.sh
    ```
 
 4. **Select a Go Version**:
@@ -87,5 +87,5 @@ go env GOPATH GOROOT
 
 ## 📁 Files Reference
 
-- **[setup_go.sh](setup_go.sh)**: The executable installation script.
+- **[set_go.sh](set_go.sh)**: The executable installation script.
 - **[go.txt](go.txt)**: Original instruction sheet detailing installation steps and shell path configurations.
